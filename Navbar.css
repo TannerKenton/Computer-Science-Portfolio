@@ -1,0 +1,32 @@
+#navbar{
+    text-align:center;
+}
+
+#navbar li{
+    display:inline-block;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 20px;
+    
+    transition:0.3s all ease-in;
+    background-color:rgb(86,240,72);
+    transform:rotateZ(0deg);
+}
+
+#navbar li:hover{
+    background-color:red;
+    transform:rotateY(5deg);
+    font-size: 25px;
+}
+
+#navbar a{
+    color:blue;
+}
+
+#Welcome{
+    font-size: 35px;
+}
+
+.Intro{
+    font-size: 20px;
+}
